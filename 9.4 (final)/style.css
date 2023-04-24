@@ -2,28 +2,27 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-    margin: 0px;
-}
 .buttons{
-    margin: 0px; 
+    margin-right: 8px;
 }
 
 @media screen and (min-width: 992px) {
-    .navbar {
+    .navbar, .main {
         padding: 0px 81px;
     }
+
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .navbar {
+    .navbar, .main {
         padding: 0px 8px;
     }
 
 }
 
 @media screen and (max-width: 767px) {
-    .navbar {
+    .navbar, .main {
         padding: 0px 8px;
     }
 
@@ -41,7 +40,6 @@ body {
 img.basket {
     height: 22px;
     width: 19px;
-    opacity: 0.6;
     padding-left: 27px;
 }
 
