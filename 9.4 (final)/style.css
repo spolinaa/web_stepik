@@ -17,7 +17,7 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .navbar {
-        padding: 0px 16px 0px 8px;
+        padding: 0px 8px 0px 8px;
     }
 
 }
@@ -42,7 +42,7 @@ img.basket {
     height: 22px;
     width: 19px;
     opacity: 0.6;
-    padding-left: 11px;
+    padding-left: 27px;
 }
 
 button.enter {
