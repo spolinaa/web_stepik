@@ -55,6 +55,7 @@ button.enter {
     color: #1D1D1D;
 }
 
-navbar.img{
-    padding: 0px;
+.logo{
+    display: flex;
+    align-content: center;
 }
