@@ -1,11 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
     box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    position:fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;  
+    background-color: white;
 }
 
 .buttons {
@@ -18,7 +23,12 @@ header {
     }
 
     .main {
-        padding: 56px 81px;
+        padding: 128px 81px;
+    }
+
+    img.restaurant{
+        height: 256px;
+        width: 308px;
     }
 }
 
@@ -28,7 +38,12 @@ header {
     }
 
     .main {
-        padding: 55px 8px;
+        padding: 127px 8px;
+    }
+
+    img.restaurant{
+        height: 256px;
+        width: 368px;
     }
 
 }
@@ -43,13 +58,17 @@ header {
     }
 
     .main {
-        margin: 55px 4px 0px 8px;
+        margin: 127px 4px 0px 8px;
+    }
+
+    img.restaurant{
+        height: 246px;
+        width: 308px;
     }
 }
 
 .navbar {
     height: 72px;
-
 }
 
 img.basket {
@@ -98,8 +117,16 @@ h3 {
     font-size: 22px;
     line-height: 34px;
     color: #1D1D1D;
+    margin-bottom: 16px;
 }
 
 .title{
     margin-top: 34px; 
+}
+
+h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
 }
