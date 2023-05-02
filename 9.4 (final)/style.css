@@ -23,11 +23,7 @@ header {
     }
 
     .main {
-        padding: 128px 81px;
-    }
-
-    footer{
-        margin-top: 64px;
+        padding: 128px 81px 64px;
     }
 }
 
@@ -37,11 +33,7 @@ header {
     }
 
     .main {
-        padding: 127px 8px;
-    }
-
-    footer{
-        margin-top: 32px;
+        padding: 127px 8px 32px;
     }
 }
 
@@ -51,11 +43,7 @@ header {
     }
 
     .main {
-        margin: 127px 4px 0px 8px;
-    }
-
-    footer{
-        margin-top: 32px;
+        padding: 127px 4px 32px 8px;
     }
 }
 
