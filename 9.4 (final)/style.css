@@ -142,9 +142,8 @@ footer{
     background-color: #262626;
 }
 
-footer>.logo{
-    padding: 56px 0px 40px;
-    border-bottom: 1px solid #979797;
+footer>.logo>.logo{
+    margin: 56px 0px 0px;
 }
 
 hr{
@@ -162,6 +161,14 @@ select{
     border-radius: 2px;
 }
 
+.references{
+    padding-top: 32px;
+}
 
+.footer_container{
+    border-bottom: 1px solid #979797;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+}
 
 
