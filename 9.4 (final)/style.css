@@ -159,14 +159,14 @@ hr {
 select {
     background: url(img/if_icon-ios7-arrow-back_211686.svg) 93% / 8% no-repeat#3b3b3b;
     color: white;
-    width: 227px;
+
     border: 0px solid #3B3B3B;
     border-radius: 2px;
-    padding: 11px 8px 11px 48px; 
+    padding: 11px 0px 11px 48px; 
 
     height: 40px;
     appearance: none;
-    
+    width: 100%;
 }
 
 optgroup{
@@ -175,13 +175,6 @@ optgroup{
     font-size: 13px;
 }
 
-select::-ms-expand {
-    display: none;
-}
-
-.references {
-    padding-top: 32px;
-}
 
 .footer_container {
     border-bottom: 1px solid #979797;
@@ -189,8 +182,37 @@ select::-ms-expand {
     flex-basis: 100%;
 }
 
-.language>img{
+.social>img{
     position:relative;
     top: 32px;
     left: 16px;
 }
+
+.references{
+    margin: 16px -8px 48px;
+}
+
+.hashtag{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    padding-top: 33px;
+}
+
+.hashtag:before {
+    color: #49A144;
+    content: "#";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.facebook{
+    padding-top: 17px;
+}
+
+.twitter{
+    padding: 0px 4px 0px 8px;
+}
+
