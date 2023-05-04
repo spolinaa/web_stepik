@@ -82,7 +82,6 @@ button.enter {
 input {
     width: 100%;
     color: #1D1D1D;
-    opacity: 1;
     outline: 0;
     border-style: none;
     border-bottom: 1px solid rgba(117, 117, 117, 0.3);
@@ -94,8 +93,7 @@ input {
 
 
 ::placeholder {
-    color: #626262;
-    opacity: 0.5;
+    color: rgba(98, 98, 98, 0.5);
 }
 
 h3 {
