@@ -157,13 +157,26 @@ hr {
 }
 
 select {
-    background: #3B3B3B;
+    background: url(img/if_icon-ios7-arrow-back_211686.svg) 93% / 8% no-repeat#3b3b3b;
     color: white;
     width: 227px;
-    border: 2px solid #3B3B3B;
+    border: 0px solid #3B3B3B;
     border-radius: 2px;
-    font: 13px Roboto sans-serif;
-    padding: 16px 12px 16px 48px; 
+    padding: 11px 8px 11px 48px; 
+
+    height: 40px;
+    appearance: none;
+    
+}
+
+optgroup{
+    font-weight: 400;
+    line-height: 15px;
+    font-size: 13px;
+}
+
+select::-ms-expand {
+    display: none;
 }
 
 .references {
@@ -172,12 +185,12 @@ select {
 
 .footer_container {
     border-bottom: 1px solid #979797;
-    padding-bottom: 40px;
+    padding-bottom: 36px;
     flex-basis: 100%;
 }
 
 .language>img{
     position:relative;
-    top: 40px;
+    top: 32px;
     left: 16px;
 }

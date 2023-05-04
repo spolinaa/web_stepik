@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="normalize.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -106,24 +106,31 @@
         <div class="logo row">
             <div class="col-xs-12 logo">
                 <div class="footer_container"><img src="img/white-logo.svg" alt=""></div>
-                
+
             </div>
         </div>
         <div class="references row">
-            <div class="col-md-3 col-xs-12">
-                <div class="row language">
+            <div class="col-md-4 col-xs-12">
+                <div class="row">
                     <div class="col-xs">
-                        <img src="img/world.svg">
+                        <div class="row">
+                            <div class="col-md-9 col-xs-7 language">
+                                <img src="img/world.svg">
+                                <select>
+                                    <optgroup>
+                                        <option>Русский</option>
+                                        <option>English</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+
+
+
                     </div>
-                    <div class="col-xs">
-                        <select>
-                            <option>Русский</option>
-                            <option>English</option>
-                        </select>
-                    </div>
-                    
+
                 </div>
-                
+
             </div>
         </div>
     </footer>
