@@ -28,7 +28,7 @@ header {
         padding: 128px 81px 64px;
     }
 
-    .image_container>img {
+    .image_container>a>img {
         height: 40px;
     }
     
@@ -57,7 +57,7 @@ header {
         padding: 127px 8px 32px;
     }
 
-    .image_container>img {
+    .image_container>a>img {
         height: 40px;
     }
 
@@ -85,7 +85,7 @@ header {
         padding: 127px 4px 32px 8px;
     }
 
-    .image_container>img {
+    .image_container>s>img {
         height: 36px;
     }
 
