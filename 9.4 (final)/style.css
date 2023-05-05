@@ -31,10 +31,7 @@ header {
     .image_container>img {
         height: 40px;
     }
-
-    .image_container {
-        padding-left: 340px;
-    }
+    
 
     .footer_container2 {
         padding: 16px 0px 48px;
@@ -64,10 +61,6 @@ header {
         height: 40px;
     }
 
-    .image_container {
-        padding-left: 235px;
-    }
-
     .footer_container2 {
         padding: 16px 0px 48px;
     }
@@ -94,10 +87,6 @@ header {
 
     .image_container>img {
         height: 36px;
-    }
-
-    .image_container {
-        padding-left: 31px;
     }
 
     .footer_container2 {
@@ -309,4 +298,8 @@ a{
 
 .doc{
     padding-bottom: 24px;
+}
+
+.image_container{
+    padding-left: 16px;
 }
