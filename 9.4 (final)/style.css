@@ -27,6 +27,27 @@ header {
     .main {
         padding: 128px 81px 64px;
     }
+
+    .image_container>img{
+        height: 40px;
+    }
+
+    .image_container{
+        padding-left: 340px;
+    }
+
+    .footer_container2 {
+        padding: 16px 0px 48px;
+    }
+
+    .footer_container3{
+        border-bottom: 1px solid #979797;
+        padding: 40px 0px;
+    }
+
+    .app_store{
+        padding-right: 40px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -39,6 +60,27 @@ header {
     .main {
         padding: 127px 8px 32px;
     }
+
+    .image_container>img{
+        height: 40px;
+    }
+
+    .image_container{
+        padding-left: 235px;
+    }
+
+    .footer_container2 {
+        padding: 16px 0px 48px;
+    }
+
+    .footer_container3{
+        border-bottom: 1px solid #979797;
+        padding: 40px 0px;
+    }
+
+    .app_store{
+        padding-right: 40px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -50,6 +92,28 @@ header {
 
     .main {
         padding: 127px 4px 32px 8px;
+    }
+
+    .image_container>img{
+        height: 36px;
+    }
+
+    .image_container{
+        padding-left: 31px;
+    }
+
+    .footer_container2 {
+        border-bottom: 1px solid #979797;
+        padding: 16px 0px 40px;
+    }
+
+    .footer_container3{
+        border-bottom: 1px solid #979797;
+        padding: 24px 0px;
+    }
+
+    .app_store{
+        padding-right: 24px;
     }
 }
 
@@ -144,6 +208,7 @@ p.time {
 
 footer {
     background-color: #262626;
+    padding-top: 16px;
 }
 
 footer>.logo>.logo {
@@ -162,24 +227,24 @@ select {
 
     border: 0px solid #3B3B3B;
     border-radius: 2px;
-    padding: 11px 0px 11px 48px; 
+    padding: 12px 0px 12px 48px; 
 
     height: 40px;
     appearance: none;
     width: 100%;
-}
 
-optgroup{
     font-weight: 400;
     line-height: 15px;
     font-size: 13px;
 }
 
-
 .footer_container {
     border-bottom: 1px solid #979797;
-    padding-bottom: 36px;
-    flex-basis: 100%;
+    padding: 40px 0px;
+}
+
+.footer_container2 {
+    border-bottom: 1px solid #979797;
 }
 
 .social>img{
@@ -188,16 +253,12 @@ optgroup{
     left: 16px;
 }
 
-.references{
-    margin: 16px -8px 48px;
-}
-
 .hashtag{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: white;
-    padding-top: 33px;
+    padding-top: 32px;
 }
 
 .hashtag:before {
@@ -216,3 +277,22 @@ optgroup{
     padding: 0px 4px 0px 8px;
 }
 
+.social_networks{
+    margin-bottom: 8px;
+}
+
+.link>a{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.link{
+    padding-top: 23px;
+}
+
+p{
+    margin: 0px;
+}
