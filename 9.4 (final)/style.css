@@ -24,8 +24,10 @@ header {
         padding: 0px 81px;
     }
 
-    .main {
-        padding: 128px 81px 64px;
+    .restaurants_container{
+        padding-left: 81px;
+        padding-right: 81px;
+        padding-bottom: 64px;
     }
 
     .image_container>a>img {
@@ -49,6 +51,23 @@ header {
         width: 80px;
         height: 80px;
     }
+
+    .restaurant_description{
+        padding: 38px;
+    }
+
+    h1{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        color: #1D1D1D;
+        margin: 0px 0px 54px;
+    }
+
+    p.restaurant_time{
+        font-size: 13px;
+        line-height: 15px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -58,8 +77,10 @@ header {
         padding: 0px 8px;
     }
 
-    .main {
-        padding: 127px 8px 32px;
+    .restaurants_container {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 32px;
     }
 
     .image_container>a>img {
@@ -82,6 +103,23 @@ header {
         width: 80px;
         height: 80px;
     }
+
+    .restaurant_description{
+        padding: 38px 52px 38px 48px;
+    }
+
+    h1{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        color: #1D1D1D;
+        margin: 0px 0px 54px;
+    }
+
+    p.restaurant_time{
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -91,7 +129,13 @@ header {
         padding: 0px 8px;
     }
 
-    .main {
+    .restaurants_container {
+        padding-left: 8px;
+        padding-right: 4px;
+        padding-bottom: 32px;
+    }
+
+    .restaurants_container {
         padding: 127px 4px 32px 8px;
     }
 
@@ -114,6 +158,23 @@ header {
     .up_button>a>img{
         width: 64px;
         height: 64px;
+    }
+
+    .restaurant_description{
+        padding: 24px;
+    }
+
+    h1{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #1D1D1D;
+        margin: 0px 0px 40px;
+    }
+
+    p.restaurant_time{
+        font-size: 12px;
+        line-height: 14px;
     }
 }
 
@@ -323,4 +384,38 @@ a{
     position: fixed;
     bottom: 24px;
     right: 16px;
+}
+
+main{
+    padding-top: 72px;
+    overflow-x: hidden;
+}
+
+.restaurant{
+    background: url("img/pushkin.png");
+}
+
+.restaurants_container{
+    padding-top: 55px;
+}
+
+.restaurant_container{
+    padding-top: 80px;
+}
+
+.restaurant_description{
+    background: white;
+}
+
+p.restaurant_price{
+    padding-bottom: 16px;
+}
+
+p.restaurant_time{
+    background: #262626;
+    border-radius: 16px;
+    padding: 8px 16px;
+    color: white;
+    font-weight: 400;
+    width: fit-content;
 }
