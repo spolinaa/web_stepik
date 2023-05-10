@@ -68,6 +68,14 @@ header {
         font-size: 13px;
         line-height: 15px;
     }
+
+    .restaurant_container{
+        padding-top: 25px;
+    }
+
+    main.restaurant{
+        height: 364px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -119,6 +127,14 @@ header {
     p.restaurant_time{
         font-size: 12px;
         line-height: 14px;
+    }
+
+    .restaurant_container{
+        padding-top: 25px;
+    }
+
+    main.restaurant{
+        height: 364px;
     }
 }
 
@@ -179,6 +195,10 @@ header {
 
     p.restaurant_price{
         padding-bottom: 16px;
+    }
+
+    .restaurant_container{
+        padding-top: 76px;
     }
 }
 
@@ -391,24 +411,21 @@ a{
 }
 
 main{
-    padding-top: 72px;
+    margin-top: 72px;
     overflow-x: hidden;
 }
 
-.restaurant{
-    background: url("img/pushkin.png");
+main.restaurant{
+    background: url("img/pushkin.png") no-repeat;
 }
 
 .restaurants_container{
     padding-top: 55px;
 }
 
-.restaurant_container{
-    padding-top: 80px;
-}
-
 .restaurant_description{
     background: white;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
 }
 
 p.restaurant_time{
@@ -418,4 +435,8 @@ p.restaurant_time{
     color: white;
     font-weight: 400;
     display: inline-block;
+}
+
+main.restaurant{
+    background-size: 100%;
 }
