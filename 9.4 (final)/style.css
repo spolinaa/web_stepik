@@ -176,6 +176,10 @@ header {
         font-size: 12px;
         line-height: 14px;
     }
+
+    p.restaurant_price{
+        padding-bottom: 16px;
+    }
 }
 
 .navbar {
@@ -407,15 +411,11 @@ main{
     background: white;
 }
 
-p.restaurant_price{
-    padding-bottom: 16px;
-}
-
 p.restaurant_time{
     background: #262626;
     border-radius: 16px;
     padding: 8px 16px;
     color: white;
     font-weight: 400;
-    width: fit-content;
+    display: inline-block;
 }
