@@ -25,12 +25,10 @@ header {
     }
 
     .restaurants_container{
-        padding-left: 81px;
-        padding-right: 81px;
         padding-bottom: 64px;
     }
 
-    .food_items{
+    .side_paddings{
         padding-left: 81px;
         padding-right: 81px;
     }
@@ -81,6 +79,12 @@ header {
     .restaurant_intro{
         background: url("img/pushkin-desktop.png") no-repeat;
     }
+
+    .menu_card{
+        padding: 0px 0px 16px 16px; 
+        border-radius: 2px;
+        border: 1px solid rgba(117, 117, 117, 0.2);
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -91,12 +95,10 @@ header {
     }
 
     .restaurants_container {
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-bottom: 32px;
+        padding-bottom: 34px;
     }
 
-    .food_items{
+    .side_paddings{
         padding-left: 8px;
         padding-right: 8px;
     }
@@ -146,6 +148,12 @@ header {
     .restaurant_intro{
         background: url("img/pushkin-tablet.png") no-repeat;
     }
+
+    .menu_card{
+        padding: 0px 0px 16px 24px; 
+        border-radius: 2px;
+        border: 1px solid rgba(117, 117, 117, 0.2);
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -156,16 +164,12 @@ header {
     }
 
     .restaurants_container {
-        padding-left: 8px;
-        padding-right: 4px;
         padding-bottom: 32px;
     }
 
-    .restaurants_container {
-        padding: 127px 4px 32px 8px;
-    }
+    
 
-    .food_items{
+    .side_paddings{
         padding-left: 4px;
         padding-right: 8px;
     }
@@ -218,6 +222,11 @@ header {
 
     .restaurant_intro{
         background: url("img/pushkin-mobile.png") no-repeat;
+    }
+
+    .menu_card{
+        padding-bottom: 16px; 
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
     }
 }
 
@@ -478,4 +487,18 @@ p.restaurant_time{
 
 .food_items{
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.menu_card_compound{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.menu_card_price{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
 }
