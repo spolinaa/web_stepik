@@ -30,6 +30,11 @@ header {
         padding-bottom: 64px;
     }
 
+    .food_items{
+        padding-left: 81px;
+        padding-right: 81px;
+    }
+
     .image_container>a>img {
         height: 40px;
     }
@@ -70,11 +75,11 @@ header {
     }
 
     .restaurant_container{
-        padding-top: 25px;
+        padding: 25px 0px 16px;
     }
 
-    main.restaurant{
-        height: 364px;
+    .restaurant_intro{
+        background: url("img/pushkin-desktop.png") no-repeat;
     }
 }
 
@@ -89,6 +94,11 @@ header {
         padding-left: 8px;
         padding-right: 8px;
         padding-bottom: 32px;
+    }
+
+    .food_items{
+        padding-left: 8px;
+        padding-right: 8px;
     }
 
     .image_container>a>img {
@@ -130,11 +140,11 @@ header {
     }
 
     .restaurant_container{
-        padding-top: 25px;
+        padding: 25px 0px 48px;
     }
 
-    main.restaurant{
-        height: 364px;
+    .restaurant_intro{
+        background: url("img/pushkin-tablet.png") no-repeat;
     }
 }
 
@@ -153,6 +163,11 @@ header {
 
     .restaurants_container {
         padding: 127px 4px 32px 8px;
+    }
+
+    .food_items{
+        padding-left: 4px;
+        padding-right: 8px;
     }
 
     .image_container>a>img {
@@ -199,6 +214,10 @@ header {
 
     .restaurant_container{
         padding-top: 76px;
+    }
+
+    .restaurant_intro{
+        background: url("img/pushkin-mobile.png") no-repeat;
     }
 }
 
@@ -415,10 +434,6 @@ main{
     overflow-x: hidden;
 }
 
-main.restaurant{
-    background: url("img/pushkin.png") no-repeat;
-}
-
 .restaurants_container{
     padding-top: 55px;
 }
@@ -437,6 +452,30 @@ p.restaurant_time{
     display: inline-block;
 }
 
-main.restaurant{
+.restaurant_intro{
     background-size: 100%;
+}
+
+.food_items{
+    padding-top: 32px;
+    padding-bottom: 29px;
+}
+
+.food_item{
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+    border-style: none;
+    background: none;
+    padding: 0px;
+}
+
+.active{
+    color: #327430;
+}
+
+.food_items{
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
 }
