@@ -80,10 +80,21 @@ header {
         background: url("img/pushkin-desktop.png") no-repeat;
     }
 
+    .menu_cards{
+        padding-top: 16px;
+        padding-bottom: 31px;
+    }
+
     .menu_card{
-        padding: 0px 0px 16px 16px; 
+        padding-left:16px; 
         border-radius: 2px;
         border: 1px solid rgba(117, 117, 117, 0.2);
+        margin-bottom: 49px;
+    }
+
+    .menu_card_img{
+        width: 170px;
+        height: 160px;
     }
 }
 
@@ -149,10 +160,20 @@ header {
         background: url("img/pushkin-tablet.png") no-repeat;
     }
 
+    .menu_cards{
+        padding: 16px 0px;
+    }
+
     .menu_card{
-        padding: 0px 0px 16px 24px; 
+        padding-left: 24px; 
         border-radius: 2px;
         border: 1px solid rgba(117, 117, 117, 0.2);
+        margin-bottom: 32px;
+    }
+
+    .menu_card_img{
+        width: 200px;
+        height: 160px;
     }
 }
 
@@ -167,11 +188,9 @@ header {
         padding-bottom: 32px;
     }
 
-    
-
     .side_paddings{
-        padding-left: 4px;
-        padding-right: 8px;
+        padding-left: 8px;
+        padding-right: 4px;
     }
 
     .image_container>a>img {
@@ -227,6 +246,23 @@ header {
     .menu_card{
         padding-bottom: 16px; 
         border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    }
+
+    .menu{
+        padding-top: 2px;
+    }
+
+    .menu_cards_title{
+        margin-bottom: 12px;
+    }
+
+    .menu_card_img{
+        width: 102px;
+        height: 102px;
+    }
+
+    .buttons {
+        margin-right: -4px;
     }
 }
 
@@ -494,6 +530,7 @@ p.restaurant_time{
     font-size: 13px;
     line-height: 21px;
     color: #626262;
+    padding-top: 2px;
 }
 
 .menu_card_price{
@@ -501,4 +538,17 @@ p.restaurant_time{
     font-size: 15px;
     line-height: 21px;
     color: #1D1D1D;
+    padding-top: 58px;
+    padding-bottom: 16px;
 }
+
+.menu_card_img{
+    vertical-align: top;
+}
+
+.menu_card_title{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
