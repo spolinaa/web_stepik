@@ -96,6 +96,10 @@ header {
         width: 170px;
         height: 160px;
     }
+
+    .menu_card_price{
+        padding-top: 58px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -175,6 +179,10 @@ header {
         width: 200px;
         height: 160px;
     }
+
+    .menu_card_price{
+        padding-top: 58px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -244,8 +252,8 @@ header {
     }
 
     .menu_card{
-        padding-bottom: 16px; 
         border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+        margin-bottom: 16px;
     }
 
     .menu{
@@ -253,7 +261,7 @@ header {
     }
 
     .menu_cards_title{
-        margin-bottom: 12px;
+        margin-bottom: 4px;
     }
 
     .menu_card_img{
@@ -264,6 +272,22 @@ header {
     .buttons {
         margin-right: -4px;
     }
+
+    .menu_card_price{
+        padding-top: 16px;
+    }
+
+    .menu_card_title{
+        margin-top: 0px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .menu_cards{
+        padding: 35px 0px 24px;
+    }
+    
 }
 
 .navbar {
@@ -538,7 +562,6 @@ p.restaurant_time{
     font-size: 15px;
     line-height: 21px;
     color: #1D1D1D;
-    padding-top: 58px;
     padding-bottom: 16px;
 }
 
@@ -552,3 +575,8 @@ p.restaurant_time{
     text-overflow: ellipsis;
 }
 
+hr.menu_cards_delimiter{
+    width: 50px;
+    height: 1px;
+    background-color: #757575;
+}
